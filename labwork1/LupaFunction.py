@@ -1,5 +1,6 @@
-from Worker_function import Worker_function
-class Lupa_function(Worker_function):
+from WorkerFunction import WorkerFunction
+
+class LupaFunction(WorkerFunction):
     """
     Реализация интерфейса стратегии для класса Lupa
     """

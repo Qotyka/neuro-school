@@ -1,5 +1,10 @@
 from Worker import Worker
-from Lupa_function import Lupa_function
+from LupaFunction import LupaFunction
+
 class Lupa(Worker):
     def __init__(self) -> None:
-        super().__init__(Lupa_function())
+        # Подставляем конкретную реализацию интерфейса WorkerFunction
+        super().__init__(LupaFunction())
+    
+    def __repr__(self) -> str:
+        return "Lupa"

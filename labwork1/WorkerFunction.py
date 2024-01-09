@@ -1,4 +1,4 @@
-class Worker_function():
+class WorkerFunction():
     """
     Интерфейс для реализации конкретных стратегий _function в дочерних классах Worker
     """
